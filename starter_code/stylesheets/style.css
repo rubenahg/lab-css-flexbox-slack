@@ -8,3 +8,218 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+
+/* Menu */
+
+body, h1, h2, h3, h4, h5, h6, p, a, ul, li, button {
+    font-family: Slack-Larsseit,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+
+body, h1 {
+    margin: 0;
+}
+
+nav {
+    display: flex;
+    background-color: #540B51;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+.mobileButtons button {
+    background-color: #540B51;
+    border: none;
+}
+
+@media screen and (max-width: 768px) {
+    .desktopMenu {
+        display: none;
+    }
+}
+
+
+/* <header> */
+
+header {
+    background-color: #540B51;
+}
+
+.h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 45px;
+    padding: 15px;
+}
+
+.subH1 {
+    text-align: center;
+    color: #fff;
+}
+
+.freeOrange {
+    color: #ECB12F;
+    font-weight: 600;
+}
+
+.signupContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+}
+
+.emailButton, .googleButton {
+    border-radius: 6px;
+    border: 0px;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.emailButton {
+    padding: 22px 60px;
+}
+
+.googleButton {
+    padding: 7px 0px;
+}
+
+@media screen and (max-width: 768px) {
+    .emailButton, .googleButton {
+        width: 100%;
+        max-width: 380px;
+    }
+}
+
+.emailButton {
+    color: #540B51;
+}
+
+.googleButton {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: #fff;
+    background-color: #4285F4;
+    padding-right: 60px;
+}
+
+.googleButton span {
+    margin: auto;
+}
+
+.googleButton img {
+    margin-left: 10px;
+}
+
+.googleLogo {
+    width: 25px;
+    background-color: #fff;
+    padding: 8px 10px;
+    border-radius: 3px;
+}
+
+@media screen and (max-width: 768px) {
+    .heroImg {
+        width: 150vw;
+    }
+}
+
+.heroContainer {
+    padding: 20px 0;
+}
+
+/* references */
+
+.referenceSection {
+    background-color: #F3EAE2;
+    padding: 30px;
+}
+
+.referenceSection p {
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+
+.referenceLogos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 40px 0;
+}
+
+@media screen and (max-width: 768px) {
+    .referenceLogos {
+        flex-wrap: wrap;
+    }
+}
+
+.referenceLogos img {
+    width: 20%;
+    flex: 1 0 20%;
+}
+
+/* features section */
+
+.connectionSection, .flexibilitySection, .speedSection {
+    background-color: #F3EAE2;
+}
+
+.featuresText {
+    padding: 50px 20px;
+}
+
+.featuresText h2 {
+    font-weight: 700;
+    font-size: 30px;
+    color: #191817;
+    margin: 0;
+}
+
+.featuresText p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: #191817;
+    margin: 0;
+    padding: 15px 0;
+}
+
+.featuresText a {
+    color: #2E71A6;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+.featuresText a::after {
+    content: " 🡢";
+}
+
+.flexibilitySection {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+
+
+
+
+img {
+    width: 100%;
+    height: auto;
+}

@@ -39,6 +39,32 @@ nav {
     border: none;
 }
 
+h3 {
+    font-weight: 700;
+    font-size: 30px;
+    text-align: center;
+    color: #191817;
+    margin: 0;
+    padding: 50px 20px 10px 20px;
+}
+
+.wideButton {
+    padding: 22px 60px;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 768px) {
+    .wideButton {
+        width: 100%;
+        max-width: 380px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .desktopMenu {
         display: none;
@@ -213,6 +239,89 @@ header {
     display: flex;
     flex-direction: column-reverse;
 }
+
+/* Teams section */
+
+.teamsSection {
+    padding: 20px;
+    text-align: center;
+}
+
+.teamsSection > p {
+    font-weight: 600;
+}
+
+.enterpriseButton, .salesButton {
+    padding: 22px 60px;
+    border-radius: 5px;
+    border: 0px;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+@media screen and (max-width: 768px) {
+    .enterpriseButton, .salesButton {
+        width: 100%;
+        max-width: 380px;
+    }
+}
+
+.enterpriseButton {
+    background-color: #540B51;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.salesButton {
+    background-color: #fff;
+    color: #540B51;
+    border: 2px solid #540B51;
+}
+
+.teamsSection ul {
+    padding: 50px 90px 0 90px;
+}
+
+.teamsSection li {
+    list-style-type: none;
+    padding-bottom: 30px;
+}
+
+.teamsSection li p {
+    margin-bottom: 10px;
+}
+
+.bigPercentage {
+    font-size: 50px;
+    font-weight: 700;
+    color: #540B51;
+    margin: 0;
+}
+
+.percText {
+    font-size: 14px;
+    font-weight: 1000;
+    color: #191817;
+    margin: 0;
+}
+
+
+/* Störer */
+
+.welcome {
+    display: flex;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    .welcome {
+        flex-direction: column;
+    }
+}
+
+
 
 
 
